@@ -36,15 +36,10 @@
 
 - (NSUInteger) dollarCostForAppleFlavoredVodka {
     
-    /* Not really sure what I should be adjusting here. Tests are passing. Should I have been looking into self.getsDiscount ? */
-
-    NSUInteger cost = 24;
-    
-    if (self.getsDiscount) {
-        cost *= .75;
-    }
+    NSUInteger cost = self.getsDiscount ? 18 : 24;
     
     return cost;
 }
+
 
 @end
