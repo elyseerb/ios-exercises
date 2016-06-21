@@ -29,7 +29,7 @@
 
  @return An array of NSNumbers between two integers, inclusively.
  */
-- (NSArray *) arrayOfNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber;
+- (NSMutableArray *) arrayOfNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber;
 
 /**
  Returns the lowest number in an array.
